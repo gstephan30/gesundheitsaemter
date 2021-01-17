@@ -1,0 +1,26 @@
+{
+    "id": "9B6678BD",
+    "path": "~/coding/gesundheitsaemter/data-raw/split_data.R",
+    "project_path": "data-raw/split_data.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": true,
+    "created": 1610881754719.0,
+    "source_on_save": false,
+    "relative_order": 5,
+    "properties": {
+        "tempName": "Untitled1",
+        "cursorPosition": "67,78",
+        "scrollLine": "47",
+        "source_window_id": ""
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1610885218,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1610885227578,
+    "read_only": false,
+    "read_only_alternatives": []
+}

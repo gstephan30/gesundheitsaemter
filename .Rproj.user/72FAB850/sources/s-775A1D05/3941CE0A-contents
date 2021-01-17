@@ -1,0 +1,116 @@
+#------------------------------------------------------------------------------
+# Marriott and SPG merger analysis - look at location data across both firms
+#------------------------------------------------------------------------------
+
+# Load the location data
+if (!require("XLConnect")) install.packages("XLConnect")
+library(XLConnect)
+wb = loadWorkbook("D:/Datasets/Marriott Starwood.xlsx")
+marDf <- readWorksheet(wb, sheet = "Marriott", header = TRUE)
+hotDf <- readWorksheet(wb, sheet = "SPG", header = TRUE)
+
+View(marDf)
+View(hotDf)
+
+# Type the data
+marDf[,c(1:4,6)] <- lapply(marDf[,c(1:4,6)] , factor)
+hotDf[,c(1:4,6)] <- lapply(hotDf[,c(1:4,6)] , factor)
+
+# First lets figure out how many hotels each firm has by location
+marCube <- data.frame(xtabs(~Combined.Location, marDf))
+hotCube <- data.frame(xtabs(~Combined.location, hotDf))
+
+# What are the top 10 cities for each company
+head(marCube[order(marCube$Freq, decreasing=TRUE), ], n=10L)
+head(hotCube[order(hotCube$Freq, decreasing=TRUE), ], n=10L)
+
+# Plot most popular areas for each company
+if (!require("ggmap")) install.packages("ggmap")
+library("ggmap")
+
+# ggmpap approch allows for 2500 req/day so save results
+marToGeo <- rxGetVarInfo(marDf)$Combined.Location$levels
+hotToGeo <- rxGetVarInfo(hotDf)$Combined.location$levels
+
+locations <- marToGeo
+#marGeocoded <- cbind(locations, geocode(locations))
+#save(marGeocoded, file="D:/Datasets/marGeocoded.RData")
+load("D:/Datasets/marGeocoded.RData")
+
+locations <- hotToGeo
+#hotGeocoded <- cbind(locations, geocode(locations))
+#save(hotGeocoded, file="D:/Datasets/hotGeocoded.RData")
+load("D:/Datasets/hotGeocoded.RData")
+ 
+# If we weren't using ggmap for geocoding we could do this with an offline data set:
+# https://www.maxmind.com/en/free-world-cities-database
+
+# Add the lat/long to our Excel data
+marGeocoded <- merge(marGeocoded, data.frame(marCube), by.x = "locations", by.y = "Combined.Location")
+hotGeocoded <- merge(hotGeocoded, data.frame(hotCube), by.x = "locations", by.y = "Combined.location")
+
+# Plot the results on a globe
+#devtools::install_github("bwlewis/rthreejs")
+library(threejs)
+
+# Some trouble has been reported with Firefox on Windows, so use IE
+options(browser = "C:/Program Files/Internet Explorer/iexplore.exe")
+
+# Extra images that could be used for the globe
+globejs(img="http://2.bp.blogspot.com/-Jfw4jY6vBWM/UkbwZhdKxuI/AAAAAAAAK94/QTmtnuDFlC8/s1600/2_no_clouds_4k.jpg")
+globejs(img="http://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73909/world.topo.bathy.200412.3x5400x2700.jpg")
+
+# Marriott props
+globejs(lat=marGeocoded$lat, long=marGeocoded$lon,
+         val=marGeocoded$Freq^1.2,    # Bar height 
+         color="blue",
+         pointsize=0.5,
+         atmosphere=TRUE)
+
+# Starwood props
+globejs(lat=hotGeocoded$lat, long=hotGeocoded$lon,
+         val=hotGeocoded$Freq^1.2,    # Bar height 
+         color="red",
+         pointsize=0.5,
+         atmosphere=TRUE)
+
+# Combined property overlay (Marriott orange, Starwood in yellow)
+marGeocoded$color <- "#ff5a00"
+marGeocoded$firm <- "Marriott"
+hotGeocoded$color <- "#ffff00"
+hotGeocoded$firm <- "Starwood"
+combGeocoded <- rbind(hotGeocoded,marGeocoded )
+
+globejs(lat=combGeocoded$lat, long=combGeocoded$lon,
+         val=combGeocoded$Freq^1.2,    # Bar height 
+         color=combGeocoded$color,
+         pointsize=0.8,
+         atmosphere=TRUE)
+	
+## From the globe plot it looks like there is the most overlap in the US/Europe
+# US map with ggmap
+usPlot <- qmap(location = "USA", zoom = 4, legend = "bottomright", maptype = "terrain", color = "bw", darken = 0.01) 
+usPlot <- usPlot + geom_point(data = combGeocoded, aes(y = lat, x = lon, colour = firm, size=Freq, alpha=.2))
+(usPlot <- usPlot + scale_size_continuous(range = c(3,10)))
+
+# Europe map with ggmap
+eurPlot <- qmap(location = "Europe", zoom = 4, legend = "bottomright", maptype = "terrain", color = "bw", darken = 0.01) 
+eurPlot <- eurPlot + geom_point(data = combGeocoded, aes(y = lat, x = lon, colour = firm, size=Freq, alpha=.2))
+(eurPlot <- eurPlot + scale_size_continuous(range = c(3,10)))
+
+## There are also packages that can make these interactive
+if (!require("leaflet")) install.packages("leaflet")
+library(leaflet)
+
+legend <- '<font style="background-color: #ff5a00">Marriott</font><br><font style="background-color: #ffff00">Starwood</font>'
+(intMap <- leaflet() %>% 
+	addTiles() %>%
+	addCircleMarkers(lng = combGeocoded[combGeocoded$firm == "Marriott", 2], 
+		lat = combGeocoded[combGeocoded$firm == "Marriott", 3], 
+		radius = combGeocoded[combGeocoded$firm == "Marriott", 4], 
+		color = "#ff5a00") %>%
+	addCircleMarkers(lng = combGeocoded[combGeocoded$firm == "Starwood", 2], 
+		lat = combGeocoded[combGeocoded$firm == "Starwood", 3], 
+		radius = combGeocoded[combGeocoded$firm == "Starwood", 4], 
+		color = "#ffff00") %>%
+	addControl(html=legend, position = "bottomright"))

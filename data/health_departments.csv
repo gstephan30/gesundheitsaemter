@@ -1,0 +1,400 @@
+authority_id,name,department,street,postalcode,place,long,lat
+1,Stadt Flensburg,Fachbereich 2 / Gesundheitsdienste,Norderstr. 58-60,24939,Flensburg,9.4310279,54.7924644
+2,Landeshauptstadt Kiel,Amt für Gesundheit,Fleethörn 18-24,24103,Kiel,10.1343774,54.3218027
+3,Hansestadt Lübeck,Gesundheitsamt,Sophienstr. 2 - 8,23560,Lübeck,10.6887799,53.85602
+4,Stadt Neumünster,Gesundheitsamt,Meßtorffweg 8,24534,Neumünster,9.9906916,54.0762598
+5,Kreis Dithmarschen,Fachdienst Gesundheitsschutz,Esmarchstr. 50,25746,Heide,9.0805534,54.2002794
+6,Kreis Nordfriesland,Fachdienst Gesundheit(Gesundheitsamt),Damm 8,25813,Husum,9.053045599999999,54.4739851
+7,Kreis Ostholstein,Fachdienst Gesundheit(Gesundheitsamt),Holstenstr. 52,23701,Eutin,10.6071897,54.13984019999999
+8,Kreisverwaltung Pinneberg,Fachdienst Gesundheit,Kurt-Wagener-Straße 11,25337,Elmshorn,9.7000083,53.7450042
+9,Kreis Rendsburg-Eckernförde,Fachdienst 4.3 Gesundheitsdienste,Kaiserstr. 8,24768,Rendsburg,9.669210699999999,54.2976708
+10,Kreis Schleswig-Flensburg,Fachdienst Gesundheit,Moltkestraße 22-26,24837,Schleswig,9.5580904,54.5190004
+11,Landkreis Steinburg,Gesundheitsamt,Viktoriastr. 17a,25524,Itzehoe,9.5118484,53.924268
+12,Landkreis Stormarn,Fachdienst Gesundheit/ Gesundheitsamt,Reimer-Hansen-Str. 3,23843,Bad Oldesloe,10.3805623,53.8068197
+13,Bezirksamt Hamburg-Altona,Bezirksamt Altona Fachamt Gesundheit,Bahrenfelder Str. 254-260,22765,Hamburg,9.92888,53.55811000000001
+14,Gesundheitsamt Hamburg-Bergedorf,Fachamt Gesundheit,Weidenbaumsweg 21,21029,Hamburg,10.206862,53.4885844
+15,Landkreis Gifhorn,Fachbereich Gesundheit,Allerstr. 21,38518,Gifhorn,10.5377335,52.485124
+16,Landkreis Goslar,Gesundheitsamt,Heinrich-Pieper-Str. 9,38640,Goslar,10.4263967,51.9141088
+17,Landkreis Helmstedt,Geschäftsbereich Gesundheit,Elzweg 19,38350,Helmstedt,11.00101,52.2250504
+18,Landkreis Northeim,Gesundheitswesen,Wolfshof 10,37154,Northeim,9.994227799999999,51.7018203
+19,Landkreis Peine,Gesundheitsamt,Maschweg 21,31224,Peine,10.2282446,52.331344
+20,Landkreis Wolfenbüttel,Gesundheitsamt,Friedrich-Wilhelm-Str. 2a,38300,Wolfenbüttel,10.54572,52.16566
+21,Landkreis Hameln-Pyrmont,Gesundheitsamt,Hugenottenstr. 6,31785,Hameln,9.3625162,52.1012481
+22,Landkreis Hildesheim,Gesundheitsamt,Ludolfingerstr. 2,31132,Hildesheim,9.95801,52.16326
+23,Landkreis Holzminden,Gesundheitsamt,Böntalstr. 32,37603,Holzminden,9.4518253,51.827872
+24,Landkreis Nienburg (Weser),Gesundheitsamt / Gesundheitsdienste,Triemerstr. 17,31582,Nienburg,9.21267,52.64501
+25,Landkreis Schaumburg,Gesundheitsamt,Probsthäger Str. 6,31655,Stadthagen,9.2117709,52.3277967
+26,Landkreis Lüneburg,Gesundheitsamt,Am Graalwall 4,21335,Lüneburg,10.4020423,53.2505807
+27,Landkreis Osterholz,Gesundheitsamt,Heimstraße 1-3,27711,Osterholz-Scharmbeck,8.79534,53.22728
+28,Landkreis Rotenburg,Gesundheitsamt,Bahnhofstr. 15,27356,Rotenburg (Wümme),9.39242,53.11125
+29,Landkreis Heidekreis,Fachbereich Gesundheit,Dierkingstr. 19,29664,Walsrode,9.60398,52.86228000000001
+30,Landkreis Stade,Gesundheitsamt,Heckenweg 7,21680,Stade,9.4694564,53.5988863
+31,Landkreis Uelzen,Gesundheitsamt Uelzen - Lüchow-Dannenberg,Auf dem Rahlande 15,29525,Uelzen,10.55124,52.97016
+32,Landkreis Emsland,Gesundheitsamt,Ordeniederung 1,49716,Meppen,7.3060722,52.6948841
+33,Landkreis Friesland,Gesundheitsamt,Schlosserplatz 3,26441,Jever,7.896997099999998,53.5717891
+34,Landkreis Grafschaft Bentheim,Gesundheitsamt,Am Bölt 27,48527,Nordhorn,7.0577143,52.4301462
+35,Landkreis Leer,Gesundheitsamt,Jahnstr. 4,26789,Leer,7.458196200000001,53.2325455
+36,Landkreis Oldenburg,Gesundheitsamt,Delmenhorster Str. 6,27793,Wildeshausen,8.444042399999999,52.9027562
+37,Landkreis und Stadt Osnabrück,Fachdienst Gesundheit,Am Schölerberg 1,49082,Osnabrück,8.069835099999999,52.2477704
+38,Landkreis Vogelsbergkreis,Gesundheitsamt,Gartenstraße 27 - 29,36341,Lauterbach,9.3984389,50.6410914
+39,Stadt Kassel,Gesundheitsamt Region Kassel,Wilhelmshöher Allee 19-21,34117,Kassel,9.485579999999999,51.31119
+40,Kreisausschuss Fulda,Gesundheitsamt,Otfrid-von-Weißenburg-Str. 3,36043,Fulda,9.7023184,50.5517374
+41,Kreisausschuss Hersfeld-Rotenburg,Fachdienst Gesundheit,Friedloser Str. 12,36251,Bad Hersfeld,9.7159686,50.8716474
+42,Kreisausschuss des Schwalm-Eder-Kreises,Fachbereich 53 - Gesundheit,Hans-Scholl-Straße 1 Geb.5,34576,Homberg (Efze),9.4125987,51.0155627
+43,Kreisausschuss des Landkreises Waldeck-Frankenberg,Fachdienst 5.1 Gesundheit,Am Kniep 50,34497,Korbach,8.864628699999999,51.2727388
+44,Kreisausschuss Werra-Meißner,"Fachbereich Gesundheit, Verbraucherschutz und Veterinärwesen",Luisenstr. 23c,37269,Eschwege,10.0523914,51.1838012
+45,Kreisverwaltung Rhein-Lahn Kreis,Abt. 7 Gesundheitswesen,Insel Silberau 1,56130,Bad Ems,7.706806200000001,50.3331622
+46,Kreisverwaltung Bad Kreuznach,Amt 7: Gesundheitsamt,Ringstr. 4,55543,Bad Kreuznach,7.85467,49.83322
+47,Kreisverwaltung Ahrweiler,Abt. 2.6 - Gesundheitsamt,Wilhelmstr. 59,53474,Bad Neuenahr - Ahrweiler,7.10762,50.54513
+48,Kreisverwaltung  Eifelkreis Bitburg-Prüm,Amt 14 Gesundheitswesen,Triererstr. 1,54634,Bitburg,6.5232394,49.9683541
+49,Kreisverwaltung Cochem-Zell,Abt. Gesundheitsamt,Endertplatz 2-3,56812,Cochem,7.166760599999999,50.1482198
+50,Kreisverwaltung Vulkaneifel,Gesundheitsamt,Berliner Str. 2,54550,Daun,6.821903900000001,50.199867
+51,Kreisverwaltung Germersheim,"FB 43 Gesundheit, Verbraucherschutz",Hauptstr. 25,76726,Germersheim,8.3736734,49.2198711
+52,Kreisverwaltung Birkenfeld,Gesundheitsamt - Abt. 5,Mainzer Str. 157-159,55743,Idar - Oberstein,7.314079999999999,49.70665
+53,Kreisverwaltung Kaiserslautern,Gesundheitsamt,Pfaffstr. 40-42,67655,Kaiserslautern,7.754026699999999,49.4396857
+54,Kreisverwaltung Donnersbergkreis,Abt 2 - Referat Gesundheitsamt,Uhlandstr. 2,67292,Kirchheimbolanden,8.0144711,49.6654586
+55,Kreisverwaltung Mayen-Koblenz,Abt. Gesundheitsamt,Neversstr. 4-6,56068,Koblenz,7.590259999999999,50.34816
+56,Kreisverwaltung Kusel,Gesundheitsamt,Trierer Str. 49-51,66869,Kusel,7.398046799999999,49.5400618
+57,Landkreis Südliche Weinstraße / Landau,Amt für Gesundheit und Soziales,Arzheimerstr. 1,76829,Landau,8.0909396,49.1960408
+58,Kreisverwaltung Rhein-Pfalz-Kreis,Gesundheitsamt,Dörrhorststr. 36,67059,Ludwigshafen,8.4396547,49.4785671
+59,Kreisverwaltung Mainz-Bingen,Amt für Veterinär- und Gesundheitswesen,Große Langgasse 29,55116,Mainz,8.265423,50.00054979999999
+60,Kreisverwaltung Westerwaldkreises,Gesundheitsamt,Peter-Altmeier-Platz 1,56410,Montabaur,7.828440999999999,50.4308938
+61,Kreisverwaltung Bad Dürkheim/Neustadt,Abteilung 7: Gesundheitsamt,Neumayerstr. 10,67433,Neustadt an der Weinstraße,8.1452191,49.3515208
+62,Kreisverwaltung Neuwied,Abt. 11 Gesundheitsamt,Ringstr. 70,56564,Neuwied,7.4725451,50.4354441
+63,Kreisverwaltung Südwestpfalz/Pirmasens,Abt. Gesundheitswesen,Unterer Sommerwaldweg 40-42,66953,Pirmasens,7.618357100000001,49.2124357
+64,Kreisverwaltung Rhein-Hunsrück-Kreis/Simmern,Fachbereich Gesundheitsamt,Hüllstr. 13,55469,Simmern,7.5244236,49.9850248
+65,Kreisverwaltung Trier-Saarburg,Abt. Gesundheitsamt,Paulinstr. 60,54292,Trier,6.647757100000001,49.7626633
+66,Kreisverwaltung Bernkastel-Wittlich,FB33 Gesundheit,Kurfürstenstr. 67,54516,Wittlich,6.899243200000001,49.9827106
+67,Kreisverwaltung Alzey-Worms,Abt 8 - Referat Gesundheitsamt,Ernst-Ludwig-Straße 36,55232,Alzey,8.1103914,49.743028
+68,Kreisverwaltung Altenkirchen,Gesundheitsamt,In der Malzdürre 7,57610,Altenkirchen,7.650362599999999,50.68738150000001
+69,Landeshauptstadt Stuttgart,Gesundheitsamt,Schloßstraße 91,70176,Stuttgart,9.1603554,48.7753753
+70,Landratsamt Böblingen,Gesundheitsamt,Parkstr. 4,71034,Böblingen,9.0074431,48.683967
+71,Landratsamt Esslingen,Gesundheitsamt,Am Aussichtsturm 5,73207,Plochingen,9.431,48.7135
+72,Landratsamt Göppingen,Gesundheitsamt,Wilhelm-Busch-Weg 1,73033,Göppingen,9.6439073,48.7070199
+73,Landratsamt Ludwigsburg,Gesundheitsamt,Hindenburgstr. 20/1,71638,Ludwigsburg,9.197506299999999,48.89053080000001
+74,Landratsamt Rems-Murr-Kreis,Geschäftsbereich Gesundheit,Bahnhofstr. 1,71332,Waiblingen,9.3145828,48.8293024
+75,Stadt Heilbronn,Städtisches Gesundheitsamt,Bahnhofstraße 2,74020,Heilbronn,9.214184699999999,49.1428198
+76,Landratsamt Heilbronn,Gesundheitsamt,Lerchenstraße 40,74072,Heilbronn,9.227842299999999,49.1364045
+77,Landratsamt Hohenlohekreis,Gesundheitsamt,Schulstr. 12,74653,Künzelsau,9.6847241,49.2804434
+78,Landratsamt Schwäbisch Hall,Gesundheitsamt,Postfach: 11 04 53,74507,Schwäbisch Hall,9.7372649,49.1124645
+79,Landratsamt Main-Tauber-Kreis,Gesundheitsamt,Albert-Schweitzer-Str. 31,97941,Tauberbischofsheim,9.672522899999999,49.6283874
+80,Landratsamt Heidenheim,Fachbereich Gesundheit,Felsenstraße 36 Haus B,89518,Heidenheim,10.1492542,48.6820584
+81,Landratsamt Ostalbkreis,Gesundheitsamt,Julius-Bausch-Str. 12,73430,Aalen,10.0927937,48.83394939999999
+82,Landratsamt Karlsruhe,Gesundheitsamt,Beiertheimer Allee 2,76137,Karlsruhe,8.401592899999999,49.0051912
+83,Landratsamt Rastatt,Gesundheitsamt,Am Schlossplatz 5,76437,Rastatt,8.212088699999999,48.8606116
+84,Stadt Mannheim,Fachbereich Gesundheit,R1 12,68161,Mannheim,8.4685829,49.4893308
+85,Landratsamt Neckar-Odenwald-Kreis,Gesundheitsamt,Neckarelzer Strasse 7,74821,Mosbach,9.1398689,49.3491368
+86,Landratsamt Rhein-Neckar-Kreis,Gesundheitsamt,Kurfürstenanlage 38-40,69115,Heidelberg,8.68417,49.40600999999999
+87,Landratsamt Calw,Abt. 42 Gesundheit und Versorgung,Vogteistraße 42 - 46,75365,Calw,8.7454523,48.7112097
+88,Landratsamt Enzkreis,Gesundheitsamt,Bahnhofstr. 28,75172,Pforzheim,8.701794399999999,48.8929495
+89,Landratsamt Freudenstadt,Gesundheitsamt,Reichsstr. 11,72250,Freudenstadt,8.4154746,48.4630158
+90,Landratsamt Breisgau-Hochschwarzwald,Gesundheitsamt,Sautierstraße 28 +30,79104,Freiburg,7.852846,48.00559819999999
+91,Landratsamt Emmendingen,Gesundheitsamt,Am Vogelsang 1,79312,Emmendingen,7.855578699999999,48.1243427
+92,Landratsamt Ortenaukreis,Gesundheitsamt,"Badstr. 20, Bau B",77652,Offenburg,7.940520999999999,48.464593
+93,Landratsamt Rottweil,Gesundheitsamt,Bismarckstr. 19,78628,Rottweil,8.6260975,48.1602745
+94,Landratsamt Schwarzwald-Baar-Kreis,Gesundheitsamt,Herdstraße 4,78050,Villingen-Schwenningen,8.4565702,48.0538922
+95,Landratsamt Tuttlingen,Gesundheitsamt (Amt 42),Luginsfeldweg 15,78532,Tuttlingen,8.8328147,47.9851393
+96,Landratsamt Konstanz,Amt für Gesundheit und Versorgung,Scheffelstraße 15,78315,Radolfzell,8.9772453,47.735713
+97,Landratsamt Lörrach,Fachbereich Gesundheit,Palmstr. 3   / Haus 2,79539,Lörrach,7.6624515,47.6147087
+98,Landratsamt Waldshut,Gesundheitsamt,Im Wallgraben 34,79761,Waldshut-Tiengen,8.2119302,47.6234674
+99,Landratsamt Reutlingen,Kreisgesundheitsamt,St.-Wolfgang-Str. 13,72764,Reutlingen,9.213519699999999,48.4958424
+100,Landratsamt Tübingen,Abteilung 33 Gesundheit,Wilhelm-Keil-Straße 50,72072,Tübingen,9.047108399999999,48.5108872
+101,Landratsamt Zollernalbkreis,Gesundheitsamt,Weilheimer Straße 31,72379,Hechingen,8.9550971,48.3456698
+102,Landratsamt Alb-Donau-Kreis,Fachdienst Gesundheit,Schillerstr. 30,89077,Ulm,9.9828634,48.3965002
+103,Landratsamt Biberach,Kreisgesundheitsamt,Rollinstr. 17,88400,Biberach,9.7933754,48.0941599
+104,Landratsamt Bodenseekreis,Gesundheitsamt,Albrechtstr. 75,88045,Friedrichshafen,9.4538481,47.6572392
+105,Landratsamt Ravensburg,Gesundheitsamt,Gartenstraße 107,88212,Ravensburg,9.624162,47.7946225
+106,Landratsamt Sigmaringen,Fachbereich Gesundheit,Hohenzollernstraße 12,72488,Sigmaringen,9.2166714,48.0921499
+107,Stadt Ingolstadt,Gesundheitsamt,Esplanade 29,85049,Ingolstadt,11.4225932,48.7679904
+108,Landeshauptstadt München,Referat für Gesundheit und Umwelt,Bayerstraße 28a,80335,München,11.5527191,48.1392054
+109,Landratsamt Altötting,Gesundheits- und Veterinärwesen,Vinzenz-von-Paul-Str. 8,84503,Altötting,12.6756823,48.23344789999999
+110,Landratsamt Berchtesgadener Land,Gesundheitsamt,Salzburger Str. 64,83435,Bad Reichenhall,12.896812,47.7393083
+111,Landkreis Bad Tölz - Wolfratshausen,Landratsamt,Prof.-Max-Lange-Platz 1,83646,Bad Tölz,11.5814536,47.7579387
+112,Landratsamt Dachau,Gesundheitsamt,Dr.-Hiller-Straße 36,85221,Dachau,11.4286373,48.2668472
+113,Landratsamt Ebersberg,Gesundheitsamt,Eichthalstr. 5,85560,Ebersberg,11.969683,48.0757311
+114,Landratsamt Eichstätt,Gesundheitswesen,Grabmannstr.2,85072,Eichstätt,11.1938743,48.8888685
+115,Landratsamt Erding,Abteilung 5 - Gesundheitsamt,Lange Zeile 10,85435,Erding,11.9072007,48.3073451
+116,Landratsamt Freising,Gesundheitsamt Freising,Johannisstr. 8,85354,Freising,11.7388155,48.3968025
+117,Landratsamt Fürstenfeldbruck,Gesundheitsamt,Hans-Sachs-Str. 9,82256,Fürstenfeldbruck,11.2579359,48.1752453
+118,Landratsamt Garmisch-Partenkirchen,Gesundheitsamt Garmisch-Partenkirchen,Partnachstr. 26,82467,Garmisch - Partenkirchen,11.0925845,47.496025
+119,Landkreis Landsberg a.Lech,Landratsamt Landsberg am Lech - Außenstelle 2,Bürgermeister-Dr.-Hartmann-Str. 48,86899,Landsberg am Lech,10.85646,48.04799999999999
+120,Landratsamt Miesbach,Fachbereich 43 Gesundheitsamt,Wendelsteinstraße 1,83714,Miesbach,11.8401598,47.78886170000001
+121,Landratsamt Mühldorf am Inn,Gesundheitsamt,Töginger Str. 18b,84453,Mühldorf,12.52741,48.24446
+122,Landratsamt München,Abteilung 4 - Öffentliches Gesundheits- und Veterinärwesen,Mariahilfplatz 17,81541,München,11.5823072,48.1242064
+123,Landratsamt Neuburg-Schrobenhausen,Gesundheitsamt,Müller-Gnadenegg-Weg 1,86633,Neuburg an der Donau,11.1761334,48.7296299
+124,Landratsamt Pfaffenhofen,Gesundheitsamt,Krankenhausstr.70,85276,Pfaffenhofen a.d. Ilm,11.4987792,48.5183165
+125,Landratsamt Rosenheim,Staatliches Gesundheitsamt,Prinzregentenstr. 19,83022,Rosenheim,12.1227162,47.8564319
+126,Landratsamt Starnberg,Fachbereich 32 Gesundheitswesen,Dampfschiffstr. 2a,82319,Starnberg,11.3477482,47.9992832
+127,Landratsamt Traunstein,Gesundheitsamt,Herzog-Friedrich-Str. 6,83278,Traunstein,12.6409468,47.8697406
+128,Landratsamt Weilheim-Schongau,Abteilung 6 - Gesundheitsamt,Eisenkramergasse 11,82362,Weilheim i.OB,11.14274,47.84003
+129,Landratsamt Deggendorf,Gesundheitswesen,Herrenstraße 18,94469,Deggendorf,12.9543346,48.8390282
+130,Landratsamt Freyung-Grafenau,Gesundheitsamt,Erlenhain 6,94065,Waldkirchen,13.5987404,48.7272508
+131,Landratsamt Kelheim,Gesundheitsabteilung,Hemauerstr. 48 a,93309,Kelheim,11.88383,48.92402000000001
+132,Landratsamt Landshut,Gesundheitsamt,Veldener Straße 15,84036,Landshut,12.14675,48.52328
+133,Landratsamt Passau,Gesundheitsamt,Passauer Str. 33,94081,Fürstenzell,13.3258917,48.5241419
+134,Landratsamt Regen,Gesundheitsamt,Poschetsrieder Straße 16,94209,Regen,13.1391989,48.96697650000001
+135,Landratsamt Rottal-Inn,Abt. 4 Gesundheits-und Veterinärwesen,Ringstr. 4-7,84347,Pfarrkirchen,12.9404039,48.4333777
+136,Landratsamt Straubing-Bogen,Abteilung Gesundheitswesen,Leutnerstraße 15,94315,Straubing,12.5890701,48.87389
+137,Landratsamt Dingolfing-Landau,Gesundheitsamt,Obere Stadt 1,84130,Dingolfing,12.4958226,48.628238
+138,Landratsamt Amberg-Sulzbach,Gesundheitsamt,Hockermühlstr. 53,92224,Amberg,11.8425499,49.4402061
+139,Landratsamt Cham,Gesundheitswesen,Altenstadter Str. 7,93413,Cham,12.67308,49.22337
+140,Landratsamt Neumarkt i.d.Oberpfalz,Gesundheitsamt,Dr. Grundler -Str. 1,92318,Neumarkt i.d.OPf.,11.4543248,49.2831378
+141,Landratsamt Neustadt a. d. Waldnaab/ Weiden,Abteilung Gesundheitswesen,Maistrasse 7-9,92637,Weiden i. d. Oberpfalz,12.1519181,49.6720902
+142,Landratsamt Regensburg,Gesundheitsamt,Altmühlstraße 3,93059,Regensburg,12.1145772,49.0307606
+143,Landratsamt Schwandorf,Sgb. 5.0 - Gesundheitsamt,Wackersdorfer Str. 78a,92421,Schwandorf,12.1256982,49.3215601
+144,Landratsamt Tirschenreuth,Gesundheitsamt,St.-Peter-Str. 33,95643,Tirschenreuth,12.329347,49.8853668
+145,Landratsamt Bamberg,Fachbereich 23 Gesundheitswesen,Ludwigstr. 25,96052,Bamberg,10.8986254,49.89948649999999
+146,Landratsamt Bayreuth,Abteilung Gesundheitswesen,Markgrafenallee 5,95448,Bayreuth,11.5829344,49.951197
+147,Landratsamt Coburg,FB 32 Gesundheit,Lauterer Straße 60,96450,Coburg,10.9799598,50.2840131
+148,Landratsamt Forchheim,Gesundheitsamt,Am Streckerplatz 3,91301,Forchheim,11.0614377,49.7176052
+149,Landratsamt Hof,Abt. 7 Gesundheitswesen,Theaterstr. 8,95028,Hof/Saale,11.9152755,50.3212149
+150,Landratsamt Kronach,Sachgebiet  42 - Gesundheitsamt,Güterstrasse 18,96317,Kronach,11.32165,50.24254999999999
+151,Landratsamt Kulmbach,Gesundheitsamt,Konrad-Adenauer-Str. 2,95326,Kulmbach,11.4422316,50.1035321
+152,Landratsamt Lichtenfels,Sachgebiet Gesundheit,Kronacher Str. 28-30,96215,Lichtenfels,11.0721212,50.1480361
+153,Landratsamt Wunsiedel i.Fichtelgeb.,Fachbereich Gesundheitswesen,Jean-Paul-Str. 9,95632,Wunsiedel,12.0060551,50.03802719999999
+154,Landratsamt Ansbach,Gesundheitsamt,Crailsheimstraße 64,91522,Ansbach,10.5585592,49.2965415
+155,Stadt Nürnberg,Gesundheitsamt,Burgstraße 4,90403,Nürnberg,11.0775487,49.4562012
+156,Landratsamt Erlangen-Höchstadt,Gesundheitsamt,Nägelsbachstr. 1,91052,Erlangen,11.0033346,49.5920717
+157,Landratsamt Fürth,Gesundheitsamt,Im Pinderpark 2 (Postadresse) Im Pinderpark 4 (Dienstgebäude),90513,Zirndorf,10.94883,49.43962
+158,Landratsamt Nürnberger Land,Gesundheitsamt,Waldluststr. 3,91207,Lauf a.d. Pegnitz,11.2848959,49.5017732
+159,Landratsamt Neustadt a.d.Aisch-Bad Windsheim,Gesundheitsamt,Konrad-Adenauer-Str. 2,91413,Neustadt an der Aisch,10.6097139,49.57321450000001
+160,Landratsamt Roth,Gesundheitsamt,Westring 36,91154,Roth,11.0747143,49.238206
+161,Landratsamt Weißenburg-Gunzenhausen,Gesundheitsamt,Niederhofener Str. 3,91781,Weißenburg,10.9778854,49.0306036
+162,Landratsamt Aschaffenburg,Abteilung 5 - Gesundheitsamt,Merlostr.1-3,63741,Aschaffenburg,9.13853,49.98183
+163,Landkreis Bad Kissingen,Staatliches Gesundheitsamt,Salinenstr.1,97688,Bad Kissingen,10.0760963,50.2023106
+164,Landkreis Rhön-Grabfeld,SG 3.4 - Gesundheitsamt,Spörleinstr. 11,97616,Bad Neustadt,10.2179214,50.3228052
+165,Landratsamt Hassberge,Fachabteilung II/A,Zwerchmaingasse 14,97437,Haßfurt,10.5085651,50.030851
+166,Landratsamt Kitzingen,Gesundheitsamt,Kaiserstraße 4,97318,Kitzingen,10.16113,49.73947
+167,Landratsamt Miltenberg,Gesundheitsamt,Brückenstr. 2,63897,Miltenberg,9.25274,49.7039512
+168,Landratsamt Main-Spessart,Gesundheitsamt,Rudolph-Glauber-Str. 28,97753,Karlstadt,9.7651973,49.9675044
+169,Landratsamt Schweinfurt,Gesundheitsamt,Schrammstr. 1,97421,Schweinfurt,10.2281462,50.0413163
+170,Landratsamt Würzburg,Fachbereich 34,Zeppelinstraße 15,97074,Würzburg,9.9479452,49.7855827
+171,Stadt Augsburg,Gesundheitsamt,Hoher Weg 8,86152,Augsburg,10.8977667,48.3716168
+172,Stadt Memmingen,Gesundheitsamt,Buxacher Str. 16,87700,Memmingen,10.1731168,47.9859711
+173,Landratsamt Aichach-Friedberg,Gesundheitsamt,Krankenhausstraße 9,86551,Aichach,11.14102,48.46318000000001
+174,Landratsamt Augsburg,Gesundheitsamt,Prinzregenten Platz 4,86150,Augsburg,10.8891442,48.3670706
+175,Landratsamt Dillingen,Fachbereich Gesundheit,Große Allee 24,89407,Dillingen a. d. Donau,10.4906976,48.57984949999999
+176,Landratsamt Günzburg,Gesundheitsamt,An der Kapuzinermauer 1,89312,Günzburg,10.28001,48.45268
+177,Landratsamt Neu-Ulm,Öffentlicher Gesundheitsdienst,Kantstr. 8,89231,Neu-Ulm,10.0111688,48.39988229999999
+178,Landratsamt Lindau,Fachbereich Gesundheit,Bregenzer Straße 35,88131,Lindau,9.698717799999999,47.5531162
+179,Landkreis Ostallgäu,Gesundheitsamt,Schwabenstraße 11,87616,Marktoberdorf,10.6165729,47.7820031
+180,Landratsamt Unterallgäu,Gesundheitsamt,Bad Wörishofer Str. 33,87719,Mindelheim,10.4941459,48.042065
+181,Landratsamt Donau-Ries,Gesundheitsamt,Pflegstr. 2,86609,Donauwörth,10.7759883,48.7196362
+182,Landratsamt Oberallgäu,Gesundheitsamt,Oberallgäuer Platz 2,87527,Sonthofen,10.2818335,47.5141219
+183,Regionalverbandes Saarbrücken,Gesundheitsamt,Stengelstraße 10-12,66117,Saarbrücken,6.987927399999999,49.233858
+184,Landkreis Merzig-Wadern,Gesundheitsamt,Hochwaldstr. 44,66663,Merzig,6.639699299999999,49.4421191
+185,Landkreis Neunkirchen,Gesundheitsamt,Lindenallee 13,66538,Neunkirchen,7.176174199999999,49.3488437
+186,Landkreis Saarlouis,Gesundheitsamt,Choisyring 5,66740,Saarlouis,6.752667799999999,49.3175392
+187,Saarpfalz-Kreis,Gesundheitsamt,Am Forum 1,66424,Homburg,7.333061,49.3179067
+188,Landkreis St. Wendel,Gesundheitsamt,Werschweilerstr 40,66606,St. Wendel,7.175700099999999,49.4598458
+189,Bezirksamt Mitte von Berlin,"Abt. Stadtentwicklung, Soziales und Gesundheit",Kapweg 3,13405,Berlin,13.3296051,52.56221619999999
+190,Bezirksamt Friedrichshain-Kreuzberg von Berlin,Gesundheitsamt,Urbanstr. 24,10967,Berlin,13.4098358,52.4924717
+191,Bezirksamt Pankow von Berlin,Gesundheitsamt,Grunowstraße 8-11,13187,Berlin,13.4095847,52.56721659999999
+192,Bezirksamt Charlottenburg-Wilmersdorf von Berlin,Gesundheitsamt,Hohenzollerndamm 174-177,10713,Berlin,13.31146,52.48909
+193,Bezirksamt Spandau von Berlin,Gesundheitsamt,Carl-Schurz-Str. 2-6,13597,Berlin,13.2010881,52.5353041
+194,Bezirksamt Steglitz-Zehlendorf von Berlin,Gesundheitsamt,Robert-Lück-Straße 5,12169,Berlin,13.3256659,52.4574289
+195,Bezirksamt Tempelhof-Schöneberg von Berlin,Gesundheitsamt,Rathausstr. 27,12105,Berlin,13.379145,52.4458861
+196,Bezirksamt Neukölln von Berlin,Gesundheitsamt,Blaschkoallee 32,12040,Berlin,13.446435,52.45255239999999
+197,Bezirksamt Treptow-Köpenick von Berlin,Gesundheitsamt,Hans-Schmidt-Str. 16,12414,Berlin,13.5330215,52.4347076
+198,Bezirksamt Marzahn-Hellersdorf von Berlin,Abteilung Gesundheit und Soziales,Janusz-Korczak-Str.32,12627,Berlin,13.6061533,52.5386273
+199,Bezirksamt Lichtenberg von Berlin,Gesundheitsamt,Alfred-Kowalke-Straße 24,10360,Berlin,13.5242192,52.5076719
+200,Bezirksamt Reinickendorf von Berlin,Gesundheitsamt,Teichstr. 65,13407,Berlin,13.34767,52.57113
+201,Stadtverwaltung Brandenburg,"Gesundheits-, Veterinär- und Lebensmittelüberwachungsamt",Klosterstrasse 14,14770,Brandenburg a. d. Havel,12.5531715,52.411741
+202,Stadt Cottbus/S,Fachbereich 53 Gesundheit,Puschkinpromenade 25 (Spreegalerie),03044,Cottbus,14.3287123,51.7620671
+203,Stadt Frankfurt/Oder,Gesundheitsamt,Logenstraße 6,15203,Frankfurt/Oder,14.5529167,52.341894
+204,Landeshauptstadt Potsdam,Gesundheitsamt,Berliner Straße 150a,14469,Potsdam,13.067171,52.4011887
+205,Landkreis Barnim,Dienstleistungs- und Verwaltungszentrum/ Paul Wunderlich Haus,Am Markt 1,16225,Eberswalde,13.8199943,52.83338329999999
+206,Landkreis Dahme- Spreewald,Gesundheitsamt,Schulweg 1B,15711,Königs Wusterhausen,13.6253345,52.3016144
+207,Landkreis Elbe-Elster,Gesundheitsamt,Grochwitzer Str. 20,04916,Herzberg/Elster,13.2236418,51.69509
+208,Landkreis Havelland,Gesundheitsamt,Forststraße 45 a,14712,Rathenow,12.3477845,52.6069488
+209,Landkreis Märkisch- Oderland,Gesundheitsamt FB II,Puschkinplatz 12,15306,Seelow,14.3822541,52.5329382
+210,Landkreis Oberhavel,Gesundheitsamt,Havelstr. 29,16515,Oranienburg,13.2354907,52.7517754
+211,Landkreis Oberspreewald- Lausitz,Gesundheitsamt,Großenhainer Str. 62,01968,Senftenberg,13.9876463,51.5205523
+212,Landkreis Oder- Spree,Gesundheitsamt,Breitscheidstraße 7,15848,Beeskow,14.2409302,52.1678036
+213,Kreisverwaltung Ostprignitz- Ruppin,Gesundheitsamt,Neustädter Str. 44,16816,Neuruppin,12.7916195,52.920084
+214,Landkreis Potsdam-Mittelmark,Fachdienst Gesundheit,Niemöllerstraße 1,14806,Bad Belzig,12.58474,52.14238
+215,Landkreis Prignitz,Gesundheitsamt,Bergstraße 49,19348,Perleberg,11.8687013,53.0726854
+216,Landkreis Spree-Neiße,Fachbereich Gesundheit,Heinrich- Heine- Str.1,03149,Forst (Lausitz),14.65254,51.74988
+217,Landkreis Teltow-Fläming,Dezernat II Gesundheitsamt,Am Nuthefließ 2,14943,Luckenwalde,13.1696392,52.0859483
+218,Landkreis Uckermark,Gesundheits- und Veterinäramt,Karl-Marx-Str.1,17291,Prenzlau,13.86808,53.31216999999999
+219,Stadt Rostock,Gesundheitsamt,Paulstraße 22,18055,Rostock,12.1340178,54.0833009
+220,Landeshauptstadt Schwerin,Fachdienst Gesundheit,Am Packhof 2-6,19053,Schwerin,11.40828,53.63212
+221,Landkreis Mecklenburgische Seenplatte,Gesundheitsamt,Platanenstraße 43,17033,Neubrandenburg,13.2584799,53.51938
+222,Landkreis Rostock,der Landrat,Am Wall 3 - 5,18273,Güstrow,12.17193,53.79245
+223,Landkreis Vorpommern-Rügen,Fachdienst Gesundheit,Carl-Heydemann-Ring 67,18437,Stralsund,13.0682389,54.30983209999999
+224,Landkreis Nordwestmecklenburg,Fachdienst Öffentlicher Gesundheitsdienst,Rostocker Straße 76,23970,Wismar,11.4724179,53.8927839
+225,Landkreis Vorpommern–Greifswald,53 Gesundheitsamt,Feldstraße 85a,17489,Greifswald,13.3900747,54.0862999
+226,Landkreis Ludwigslust-Parchim,Fachdienst Gesundheit,,19362,Parchim,11.8478394,53.4250382
+227,Stadt Chemnitz,Gesundheitsamt,Am Rathaus 8,09111,Chemnitz,12.9209998,50.8316057
+228,Landkreis Erzgebirgskreis,Gesundheitsamt,Klosterstraße 7,09456,Annaberg-Buchholz,13.0014272,50.5811611
+229,Landkreis Mittelsachsen,Gesundheitsamt,Frauensteiner Straße 43,09599,Freiberg,13.3549244,50.91327399999999
+230,Landkreis Vogtlandkreis,Landratsamt - Gesundheitsamt,Postplatz 5,08523,Plauen,12.1364607,50.4973839
+231,Landkreis Zwickau,Gesundheitsamt,Werdauer Str. 62,08056,Zwickau,12.4745682,50.72212529999999
+232,Landeshauptstadt Dresden,Gesundheitsamt,Ostra-Allee 9,01067,Dresden,13.7314463,51.0528825
+233,Landratsamt Bautzen,Gesundheitsamt,Bahnhofstr. 9,02625,Bautzen,14.4297594,51.17574889999999
+234,Landkreis Görlitz,Gesundheitsamt,Reichertstr.112,02826,Görlitz,14.9571266,51.1480377
+235,Landkreis Meißen,Gesundheitsamt,Dresdner Str. 25,01662,Meißen,13.4847704,51.1578852
+236,Landkreis Sächsische Schweiz - Osterzgebirge,Abteilung Gesundheit,Schloßhof 2/4,01796,Pirna,13.9455161,50.9617235
+237,Stadt Leipzig,Gesundheitsamt,Friedrich-Ebert-Str. 19a,04109,Leipzig,12.3655859,51.3358347
+238,Landratsamt Landkreis Leipzig,Gesundheitsamt (Hauptsitz),"Bahnhofstraße 5, Geb. 42",04668,Grimma,12.7163603,51.2235616
+239,Landratsamt Nordsachsen,Gesundheitsamt,Schlosstraße 27,04860,Torgau,13.00759,51.55921
+240,Stadt Dessau-Roßlau,Gesundheitsamt/Veterinärwesen und Verbaucherschutz,Gustav-Bergt-Straße 3,06862,Dessau-Roßlau,12.270538,51.8987577
+241,Stadt Halle (Saale),Fachbereich Gesundheit,Niemeyerstr. 1/2,06110,Halle,11.9774455,51.477362
+242,Landeshauptstadt Magdeburg,Gesundheits- und Veterinäramt,Lübecker Str. 32,39124,Magdeburg,11.6342828,52.158791
+243,Altmarkkreis Salzwedel,Gesundheitsamt,Karl-Marx-Str. 32,29410,Salzwedel,11.144317,52.8575253
+244,Landkreis Anhalt- Bitterfeld,Gesundheitsamt - Köthen (Anhalt),Am Flugplatz 1,06366,Köthen,11.9785094,51.7321609
+245,Landkreis Börde,Fachdienst Gesundheit,Bornsche Straße 2,39340,Haldensleben,11.4141216,52.2933329
+246,Burgenlandkreis,Gesundheitsamt,Schönburger Str.41,06618,Naumburg,11.8243929,51.1515257
+247,Landkreis Harz,Gesundheitsamt,Friedrich-Ebert-Str. 42,38820,Halberstadt,11.0577019,51.8882387
+248,Landkreis Jerichower Land,Gesundheitsamt,Brandenburger Str. 100,39307,Genthin,12.1635776,52.4050063
+249,Landkreis Mansfeld-Südharz,Gesundheitsamt,Rudolf-Breitscheid-Str. 20-22,06526,Sangerhausen,11.29849,51.47813
+250,Landkreis Saalekreis,Gesundheitsamt SG Hygiene,Oberaltenburg 4b,06217,Merseburg,11.9991121,51.3606231
+251,Salzlandkreis,34 Fachdienst Gesundheit,,06400,Bernburg ( Saale),11.7537327,51.7833579
+252,Landkreis Stendal,Gesundheitsamt,Wendstraße 30,39576,"Stendal, Hansestadt",11.8530989,52.6126764
+253,Landkreis Wittenberg,Fachdienst Gesundheit,Breitscheidstraße 4,06886,Luth. Wittenberg,12.6393955,51.8717962
+254,Landeshauptstadt Erfurt,Amt für Soziales und Gesundheit,Juri-Gagarin-Ring 150,99084,Erfurt,11.0342665,50.9830343
+255,Stadt Gera,Fachdienst Gesundheit,Gagarinstraße 68,07545,Gera,12.0840647,50.8884627
+256,Stadtverwaltung Jena,Fachdienst Gesundheit,Lutherplatz 3,07743,Jena,11.592111,50.9304914
+257,Stadtverwaltung Suhl,Gesundheitsamt,Friedrich-König-Str. 5,98527,Suhl,10.6884601,50.6101091
+258,Stadtverwaltung Weimar,Gesundheitsamt,Markt 13/14,99423,Weimar,11.3303679,50.9789231
+259,Landkreis Eichsfeld,Gesundheitsamt,Aegidienstr. 24,37308,Heilbad Heiligenstadt,10.1357446,51.3731453
+260,Landratsamt Nordhausen,Gesundheitsamt,Behringstr. 3,99734,Nordhausen,10.7865496,51.5069028
+261,Landratsamt Wartburgkreis,Gesundheitsamt,Erzberger Allee 14,36433,Bad Salzungen,10.23148,50.80741
+262,Landratsamt Unstrut-Hainich-Kreis,FD Gesundheit,Lindenbühl 28/29,99974,Mühlhausen,10.4620901,51.20596
+263,Landratsamt Kyffhäuserkreis,Gesundheitsamt,Edmund-König-Platz 7,99706,Sondershausen,10.872527,51.3653753
+264,Landratsamt Schmalkalden-Meiningen,Fachdienst Gesundheit,Obertshäuser Platz 1,98617,Meiningen,10.41649,50.59317
+265,Landratsamt Gotha,Gesundheitsamt,Schützenallee 31,99867,Gotha,10.7036104,50.95335679999999
+266,Landratsamt Sömmerda,Gesundheitsamt,Wielandstr. 4,99610,Sömmerda,11.1207,51.16731
+267,Landratsamt Hildburghausen,Gesundheitsamt,Wiesenstr. 18,98646,Hildburghausen,10.7260895,50.4223274
+268,Landratsamt Ilm-Kreis,Gesundheitsamt,Ritterstr. 14,99310,Arnstadt,10.9502159,50.83541109999999
+269,Landratsamt Weimarer Land,Gesundheitsamt,Bahnhofstr. 28,99510,Apolda,11.5182999,51.0256155
+270,Landratsamt Sonneberg,Gesundheitsamt,Bahnhofstr. 66,96515,Sonneberg,11.1703119,50.35715039999999
+271,Landratsamt Saalfeld-Rudolstadt,Gesundheitsamt,Rainweg 81,07318,Saalfeld,11.3480515,50.6438861
+272,Landratsamt Saale-Holzland-Kreis,Gesundheitsamt,Postfach 13 10,07602,Eisenberg,11.8926466,50.9686064
+273,Landratsamt Saale-Orla-Kreis,Fachdienst Amtsärztlicher Dienst,Oschitzer Str. 4,07907,Schleiz,11.8051449,50.5769554
+274,Landratsamt Greiz,Gesundheitsamt,Dr.-Rathenau-Platz 11,07973,Greiz,12.2023245,50.6553421
+275,Landratsamt Altenburger Land,Fachdienst Gesundheit,Lindenaustr. 31,04600,Altenburg,12.4292644,50.98761
+276,Landkreis und Stadt Osnabrück,Fachdienst Gesundheit,Am Schölerberg 1,49082,Osnabrück,8.069835099999999,52.2477704
+277,Landkreis Vechta,Gesundheitsamt,Neuer Markt 8,49377,Vechta,8.283723199999999,52.7288138
+278,Landkreis Wesermarsch,Fachdienst Gesundheit,Rönnelstr. 10,26919,Brake,8.4757698,53.3274482
+279,Landkreis Wittmund,Gesundheitsamt,Dohuser Weg 12,26409,Wittmund,7.789164299999999,53.5723723
+280,Stadt Bremen,Gesundheitsamt,Horner Str. 60-70,28203,Bremen,8.8300462,53.0747344
+281,Stadt Bremerhaven,Magistrat/Gesundheitsamt,Wurster Str. 49,27580,Bremerhaven,8.591324,53.5751528
+282,Stadt Düsseldorf,Gesundheitsamt,Kölner Str. 180,40227,Düsseldorf,6.8023878,51.217938
+283,Stadt Duisburg,Gesundheitsamt,Ruhrorter Str. 195,47119,Duisburg,6.738169000000001,51.4508019
+284,Stadt Essen,Gesundheitsamt,Hindenburgstr.29,45127,Essen,7.005878699999999,51.453461
+285,Stadt Krefeld,Fachbereich 53 Gesundheit,Gartenstr. 30-32,47798,Krefeld,6.5596701,51.3348901
+286,Stadt Mönchengladbach,Fachbereich 53 Gesundheitsamt,Am Steinberg 55,41061,Mönchengladbach,6.42134,51.20019000000001
+287,Stadt Mülheim,Gesundheitsamt,Heinrich  Melzer-Str. 3,45468,Mülheim,6.8773352,51.4301768
+288,Stadt Oberhausen,Bereich Gesundheit,Tannenbergstr. 11-13,46045,Oberhausen,6.8571674,51.4740674
+289,Stadt Remscheid,Fachdienst Gesundheit,Hastener Str. 15,42855,Remscheid,7.171373600000001,51.1892029
+290,Stadt Solingen,Stadtdienst Gesundheit,Walter Scheel-Platz 3,42651,Solingen,7.0823243,51.1785605
+291,Stadt Wuppertal,Gesundheitsamt,Willy-Brandt-Platz 19,42105,Wuppertal,7.146115500000001,51.2598727
+292,Landkreis Kleve,Kreisgesundheitsamt,Nassauer Allee 12-216,47533,Kleve,6.1374043,51.7823256
+293,Landkreis Mettmann,Gesundheitsamt,Düsseldorfer Str. 26,40822,Mettmann,6.9714806,51.2530767
+294,Landkreis Rheinkreis Neuss,Gesundheitsamt,Auf der Schanze 1,41515,Grevenbroich,6.59457,51.0865
+295,Landkreis Viersen,Gesundheitsamt,Rathausmarkt 3,41747,Viersen,6.392349800000001,51.25884800000001
+296,Landkreis Wesel,Fachbereich Gesundheitswesen,Mühlenstr. 9-11,47441,Moers,6.6267764,51.4563928
+297,Stadt Bonn,Amt 53 Gesundheitsamt,Engeltalstr. 6,53111,Bonn,7.103684800000001,50.73989419999999
+298,Stadt Köln,Gesundheitsamt,Neumarkt 15 - 21,50667,Köln,6.9484723,50.93539999999999
+299,Kreis Dithmarschen,Fachdienst Gesundheitsschutz,Esmarchstr. 50,25746,Heide,9.0805534,54.2002794
+300,Kreis Herzogtum Lauenburg,Gesundheitsamt,Barlachstr. 4,23909,Ratzeburg,10.7722815,53.6979038
+301,Kreis Nordfriesland,Fachdienst Gesundheit(Gesundheitsamt),Damm 8,25813,Husum,9.053045599999999,54.4739851
+302,Wetteraukreis,Fachdienstes Gesundheit und Gefahrenabwehr,Europaplatz 1 Gebäude B,61169,Friedberg,8.752699999999999,50.33323
+303,Landkreis Gießen,Gesundheit,Riversplatz 1-9/ Haus D,35394,Gießen,8.7095019,50.5746439
+304,Kreisausschuß des Lahn-Dill-Kreises,Gesundheitsamt,Schloßstraße 20,35745,Herborn,8.30002,50.68139
+305,Kreisverwaltung Pinneberg,Fachdienst Gesundheit,Kurt-Wagener-Straße 11,25337,Elmshorn,9.7000083,53.7450042
+306,Kreis Plön,Amt für Gesundheit,Hamburger Str. 17/18,24306,Plön,10.4078171,54.1550379
+307,Kreis Rendsburg-Eckernförde,Fachdienst 4.3 Gesundheitsdienste,Kaiserstr. 8,24768,Rendsburg,9.669210699999999,54.2976708
+308,Kreisausschuß des Lahn-Dill-Kreises,Gesundheitsamt,Schloßstraße 20,35745,Herborn,8.30002,50.68139
+309,Kreisausschuss Limburg-Weilburg,Gesundheitsamt Dienststelle Limburg,Schiede 43,65549,Limburg/ Lahn,8.059337700000002,50.3871087
+310,Kreisausschuss Marburg-Biedenkopf,Fachbereich Gesundheitsamt,Schwanallee 23,35037,Marburg,8.7587,50.8023
+311,Landkreis Vogelsbergkreis,Gesundheitsamt,Gartenstraße 27 - 29,36341,Lauterbach,9.3984389,50.6410914
+312,Kreis Schleswig-Flensburg,Fachdienst Gesundheit,Moltkestraße 22-26,24837,Schleswig,9.5580904,54.5190004
+313,Landkreis Segeberg,Fachdienst Infektionsschutz und umweltbezogener Gesundheitsschutz,Hamburger Str. 30,23795,Bad Segeberg,10.3027194,53.9358599
+314,Landkreis Steinburg,Gesundheitsamt,Viktoriastr. 17a,25524,Itzehoe,9.5118484,53.924268
+315,Gesundheitsamt Hamburg-Bergedorf,Fachamt Gesundheit,Weidenbaumsweg 21,21029,Hamburg,10.206862,53.4885844
+316,Bezirksamt Hamburg-Eimsbüttel,Gesundheits- und Umweltamt,Grindelberg 66,20144,Hamburg,9.9790397,53.5750784
+317,Bezirksamt Hamburg-Mitte,Fachamt Gesundheit,Caffamacherreihe 1-3,20355,Hamburg,9.983517299999999,53.55394980000001
+318,Bezirksamt Hamburg-Nord,Fachamt Gesundheit,Eppendorfer Landstraße 59,20249,Hamburg,9.98641,53.58945
+319,Freie und Hansestadt Hamburg,Bezirksamt Harburg,Harburger Rathauspassage 2,21073,Hamburg,9.9794365,53.4584614
+320,Bezirksamt Hamburg-Wandsbek,Gesundheitsamt,Robert-Schumann-Brücke 8,22041,Hamburg,10.0714776,53.5708527
+321,Stadt Braunschweig,Fachbereich Soziales und Gesundheit,Hamburger Str. 226,38114,Braunschweig,10.5194934,52.2863972
+322,Stadt Salzgitter,Gesundheitsamt,Paracelsusstr. 1-9,38259,Salzgitter,10.3720499,52.06823
+323,Stadt Wolfsburg,Gesundheitsamt,Rosenweg 1a,38446,Wolfsburg,10.8013416,52.4220863
+324,Landkreis Gifhorn,Fachbereich Gesundheit,Allerstr. 21,38518,Gifhorn,10.5377335,52.485124
+325,Stadt Köln,Gesundheitsamt,Neumarkt 15 - 21,50667,Köln,6.9484723,50.93539999999999
+326,Stadt Leverkusen,Fachbereich 53 Medizinischer Dienst(MediLev),Am Gesundheitspark 4,51375,Leverkusen,7.0357284,51.0307367
+327,StädteRegion Aachen,Gesundheitsamt (A53),Trierer Str. 1,52078,Aachen,6.1188205,50.7707687
+328,Kreis Düren,Gesundheitsamt,Bismarkstr. 16,52351,Düren,6.487434599999999,50.80585629999999
+329,Kreisverwaltung Rhein-Erft-Kreis,Gesundheitsamt,Willy-Brandt-Platz 1,50126,Bergheim,6.6315537,50.9510906
+330,Kreis Euskirchen,Abteilung Gesundheit,Jülicher Ring 32,53879,Euskirchen,6.783721799999999,50.6698029
+331,Kreis Heinsberg,Gesundheitsamt,Valkenburger Str. 45,52525,Heinsberg,6.1076657,51.0607331
+332,Oberbergischer Kreis,Gesundheitsamt,Am Wiedenhof 1-3,51643,Gummersbach,7.568849200000001,51.0289553
+333,Landkreis Wolfenbüttel,Gesundheitsamt,Friedrich-Wilhelm-Str. 2a,38300,Wolfenbüttel,10.54572,52.16566
+334,Stadt und Landkreis Göttingen,Fachbereich 53 Gesundheitsamt,Theaterplatz 4,37073,Göttingen,9.941621999999999,51.5349347
+335,Region Hannover,Fachbereich Gesundheit,Weinstr. 2,30171,Hannover,9.746688599999999,52.36649749999999
+336,Landkreis Diepholz,Fachdienst 53 Gesundheitsamt,Wellestr. 6,49356,Diepholz,8.3730788,52.60790859999999
+337,Landkreis Hameln-Pyrmont,Gesundheitsamt,Hugenottenstr. 6,31785,Hameln,9.3625162,52.1012481
+338,Oberbergischer Kreis,Gesundheitsamt,Am Wiedenhof 1-3,51643,Gummersbach,7.568849200000001,51.0289553
+339,Rheinisch-Bergischer Kreis,Der Landrat,Am Rübezahlwald 7,51469,Bergisch-Gladbach,7.1431239,50.9762537
+340,Rhein-Sieg-Kreis,Der Landrat/Gesundheitsamt,Kaiser-Wilhelm-Platz 1,53721,Siegburg,7.2070968,50.7932365
+341,Stadt Bottrop,Gesundheitsamt,Gladbecker Str. 66,46236,Bottrop,6.9293753,51.527231
+342,Stadt Gelsenkirchen,Referat Gesundheit,Kurt-Schumacher-Str. 4,45881,Gelsenkirchen,7.094131600000001,51.51504670000001
+343,Stadt Münster,"Amt für Gesundheit, Veterinär- und Lebensmittelangelegenheiten",Stühmer Weg 8,48147,Münster,7.635682200000001,51.9695182
+344,Kreis Borken,Fachbereich Gesundheit,Burloer Str. 93,46325,Borken,6.842439700000001,51.8518194
+345,Kreis Coesfeld,Gesundheitsamt,Schützenwall 16,48653,Coesfeld,7.173902600000001,51.94480799999999
+346,Kreis Recklinghausen,Fachdienst 53 Gesundheit,Kurt-Schumacher-Allee 1,45657,Recklinghausen,7.2044969,51.608552
+347,Landkreis Schaumburg,Gesundheitsamt,Probsthäger Str. 6,31655,Stadthagen,9.2117709,52.3277967
+348,Landkreis Celle,Gesundheitsamt,Trift 26,29221,Celle,10.0726751,52.622446
+349,Landkreis Cuxhaven,Gesundheitsamt,Vincent-Lübeck-Str. 2,27474,Cuxhaven,8.67752,53.8658
+350,Landkreis Harburg,Gesundheitsamt,Schloßplatz 6,21423,Winsen(Luhe),10.2049987,53.3615066
+351,Landkreis Lüneburg,Gesundheitsamt,Am Graalwall 4,21335,Lüneburg,10.4020423,53.2505807
+352,Kreis Recklinghausen,Fachdienst 53 Gesundheit,Kurt-Schumacher-Allee 1,45657,Recklinghausen,7.2044969,51.608552
+353,Kreis Steinfurt,Gesundheitsamt,Tecklenburger Str. 10,48565,Steinfurt,7.3447811,52.14957219999999
+354,Kreis-Warendorf,Gesundheitsamt,Waldenburger Str. 2,48231,Warendorf,7.985916199999999,51.941258500000004
+355,Stadt Bielefeld,"Gesundheits-, Veterinär- u. Lebensmittelüberwachungsamt",Nikolaus-Dürkopp-Str. 5-9,33602,Bielefeld,8.535734999999999,52.019683
+356,Kreis Gütersloh,Abteilung Gesundheit,Herzebrockerstr. 140,33334,Gütersloh,8.3495408,51.9047894
+357,Kreis Herford,53.3 Abt. Gesundheit,Amtshausstr. 2,32051,Herford,8.6621136,52.11569069999999
+358,Kreisverwaltung Höxter,Gesundheits- und Veterinärwesen,Moltkestr. 12,37671,Höxter,9.3878687,51.77803919999999
+359,Gesundheitsamt Kreis Lippe,FG 530 Gesundheit,Rintelner Straße 83,32657,Lemgo,8.9020043,52.03798219999999
+360,Landkreis Uelzen,Gesundheitsamt Uelzen - Lüchow-Dannenberg,Auf dem Rahlande 15,29525,Uelzen,10.55124,52.97016
+361,Landkreis Verden,Fachdienst Gesundheit und Umweltmedizin,Lindhooper Str.67,27283,Verden,9.2517888,52.9271951
+362,Stadt Delmenhorst,Städt. Gesundheitsamt,Lange Str. 1A (City Center),27749,Delmenhorst,8.6255849,53.0492651
+363,Stadt Emden,Fachdienst 553 - Gesundheit,Ysaac-Brons-Str. 16,26721,Emden,7.203195000000001,53.3618823
+364,Stadt Oldenburg,Gesundheitsamt,Industriestraße 1b,26121,Oldenburg,8.195459999999999,53.14894
+365,Stadt Wilhelmshaven,Gesundheitsamt,Gökerstr. 68,26384,Wilhelmshaven,8.1253406,53.528355
+366,Landkreis Ammerland,Gesundheitsamt,Lange Str. 36,26655,Westerstede,7.920110099999999,53.25769409999999
+367,Landkreis Aurich,Amt für Gesundheitswesen,Extumer Weg 29,26603,Aurich,7.466766,53.467589
+368,Landkreis Cloppenburg,Gesundheitsamt,Eschstr. 29,49661,Cloppenburg,8.039568899999999,52.84308480000001
+369,Landkreis Emsland,Gesundheitsamt,Ordeniederung 1,49716,Meppen,7.3060722,52.6948841
+370,Gesundheitsamt Kreis Lippe,FG 530 Gesundheit,Rintelner Straße 83,32657,Lemgo,8.9020043,52.03798219999999
+371,Kreis Minden-Lübbecke,Gesundheitsamt,Portastr. 13,32423,Minden,8.9108771,52.28143799999999
+372,Kreis Paderborn,Gesundheitsamt,Aldegreverstr. 10-14,33102,Paderborn,8.739372999999999,51.71511590000001
+373,Stadt Bochum,Gesundheitsamt,Westring 28-30,44777,Bochum,7.2124245,51.4825534
+374,Stadt Dortmund,Gesundheitsamt,Hoher Wall 9-11,44137,Dortmund,7.4579868,51.5129546
+375,Stadt Hagen,Gesundheitsamt Rathaus II,Berliner Platz 22,58089,Hagen,7.4619069,51.36121079999999
+376,Stadt Hamm,Gesundheitsamt,Heinrich-Reinköster-Str. 8,59065,Hamm,7.812624,51.6775804
+377,Stadt Herne,Fachbereich Gesundheit,Rathausstr. 6,44649,Herne,7.1616046,51.532652
+378,Landkreis Ennepe-Ruhr-Kreis,Fachbereich Soziales und Gesundheit,Hauptstr. 92,58332,Schwelm,7.2982663,51.2850934
+379,Hochsauerlandkreis,Gesundheitsamt Fachdienst 37,Steinstr. 27,59872,Meschede,8.2836759,51.3428246
+380,Märkischer Kreis,Gesundheitsamt,Heedfelder Str. 45,58509,Lüdenscheid,7.614383699999999,51.2250366
+381,Kreis Olpe,Fachdienst Gesundheit,Westfälische Str. 75,57462,Olpe,7.8507355,51.0332235
+382,Kreis Siegen-Wittgenstein,Gesundheit und Verbraucherschutz,Kohlbettstraße 17,57072,Siegen,8.0233042,50.8736442
+383,Kreis Soest,"Ordnung, Gesundheits- und Verbraucherschutz",Hoher Weg 1- 3,59494,Soest,8.11492,51.57233
+384,Kreis Unna,Gesundheit und Verbraucherschutz,Platanenallee 16,59425,Unna,7.6879312,51.54341059999999
+385,Stadt Frankfurt am Main,Gesundheitsamt,Breite Gasse 28,60313,Frankfurt am Main,8.6918853,50.1143626
+386,Stadt Offenbach,Gesundheitsamt,Berliner Strasse 60,63065,Offenbach,8.7639102,50.1055712
+387,Landeshauptstadt Wiesbaden,Gesundheitsamt,Konradinerallee 11,65189,Wiesbaden,8.254582599999999,50.0627918
+388,Kreisausschuss Kreis Bergstraße,Gesundheitsamt,Kettelerstraße 29,64646,Heppenheim,8.6363373,49.6465241
+389,Landkreis Darmstadt-Dieburg,Gesundheitsamt,Niersteiner Str. 3,64295,Darmstadt,8.6406144,49.8596852
+390,Kreis Groß-Gerau,Der Kreisausschuß,Wilhelm-Seipp-Str. 9,64521,Groß-Gerau,8.477503000000002,49.9129318
+391,Kreisausschuss Hochtaunuskreis,Fachbereich Gesundheitsdienste,Ludwig-Erhard-Anlage 1-4,61348,Bad Homburg,8.61638,50.215
+392,Kreis Main-Kinzig,Gesundheitsamt Hygiene u. Umwelzmedizin,Barbarossastrasse  24,63571,Gelnhausen,9.197467999999999,50.2003013
+393,Kreis Main-Taunus,Gesundheitsamt,Am Kreishaus 1-5,65719,Hofheim,8.448459999999999,50.07961
+394,Kreisausschuss Odenwaldkreis,Gesundheitsamt,Albert-Schweitzer-Starße 8,64711,Erbach,9.0005731,49.6520184
+395,Kreis Offenbach,FD Gefahrenabwehr- und Gesundheitszentrum,Gottlieb-Daimler Str. 10,63128,Dietzenbach,8.799417499999999,50.0200867
+396,Kreisausschuss Rheingau-Taunus,Gesundheitsamt,Heimbacher Str. 7,65307,Bad Schwalbach,8.07414,50.14829
+397,Wetteraukreis,Fachdienstes Gesundheit und Gefahrenabwehr,Europaplatz 1 Gebäude B,61169,Friedberg,8.752699999999999,50.33323
+398,HPHC,Hafenärztlicher Dienst,,,,NA,NA
+399,"Zentrum für tuberkulosekranke und -gefährdete Menschen, Berlin",Gesundheitsamt Lichtenberg,Deutschmeisterstr.,10367,Berlin,13.4768873,52.5155723

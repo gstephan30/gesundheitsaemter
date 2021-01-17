@@ -1,0 +1,25 @@
+{
+    "id": "1615FDF1",
+    "path": "~/coding/gesundheitsaemter/data-raw/gesus_xml.R",
+    "project_path": "data-raw/gesus_xml.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1610876260791.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "tempName": "Untitled1",
+        "cursorPosition": "38,72",
+        "scrollLine": "20"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1610823631,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1610823631,
+    "read_only": false,
+    "read_only_alternatives": []
+}

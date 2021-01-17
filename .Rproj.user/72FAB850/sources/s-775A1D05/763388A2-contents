@@ -1,0 +1,3 @@
+## code to prepare `gesus` dataset goes here
+
+usethis::use_data(gesus, overwrite = TRUE)

@@ -1,0 +1,78 @@
+library(readr)
+library(dplyr)
+library(tidyr)
+library(janitor)
+library(stringr)
+
+# Import data
+gesus_xml <- readRDS(here::here("data-raw", "gesus_xml.rds")) %>%
+  clean_names() %>%
+  mutate(across(where(is.character), str_trim))
+gesus_map_api <- readRDS(here::here("data-raw", "gesus_map_api.rds")) %>%
+  mutate(across(where(is.character), str_trim))
+
+# ---
+# create zip code range data from rki xml
+authority_zip_range <- gesus_xml %>%
+  select(authority_id = id, community_zip = plz) %>%
+  unnest(community_zip)
+
+usethis::use_data(authority_zip_range, overwrite = TRUE)
+authority_zip_range %>% write_csv(here::here("data", "authority_zip_range.csv"))
+
+# ---
+# create communities from rki xml
+communities <- gesus_xml %>%
+  select(authority_id = id, community = gemeinden) %>%
+  unnest(community)
+
+usethis::use_data(communities, overwrite = TRUE)
+communities %>% write_csv(here::here("data", "communities.csv"))
+
+# ---
+# create rki meta data file
+metadata_rki <- gesus_xml %>%
+  select(-postalcode, -place, -plz, -gemeinden, -name, -department, -street) %>%
+  rename(authority_id = id)
+
+usethis::use_data(metadata_rki, overwrite = TRUE)
+metadata_rki %>% write_csv(here::here("data", "metadata_rki.csv"))
+
+# ---
+# create google meta data file
+metadata_google <- gesus_map_api %>%
+  select(authority_id = id, data_google) %>%
+  unnest(data_google) %>%
+  unnest(address_components) %>%
+  rename(type = types) %>%
+  unnest_wider(address_components, names_sep = "_") %>%
+  unnest_wider(address_components_types, names_sep = "_") %>%
+  unnest_wider(bounds, names_sep = "_") %>%
+  unnest_wider(viewport, names_sep = "_") %>%
+  unnest_wider(plus_code) %>%
+  unnest_wider(viewport_northeast, names_sep = "_") %>%
+  unnest_wider(viewport_southwest) %>%
+  unnest_wider(bounds_northeast, names_sep = "_") %>%
+  unnest_wider(bounds_southwest, names_sep = "_") %>%
+  unnest_wider(type, names_sep = "_")
+
+usethis::use_data(metadata_google, overwrite = TRUE)
+metadata_google %>% write_csv(here::here("data", "metadata_google.csv"))
+
+# ---
+# create general overview file
+health_departments <- gesus_map_api %>%
+  select(authority_id = id, name, department, street, postalcode, place, long, lat)
+
+usethis::use_data(health_departments, overwrite = TRUE)
+health_departments %>% write_csv(here::here("data", "health_departments.csv"))
+
+create_spice(here::here("data"))
+prep_attributes()
+prep_access()
+
+edit_access()
+edit_attributes()
+edit_biblio()
+edit_creators()
+
